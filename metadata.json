@@ -1,0 +1,10 @@
+{
+  "name": "HOTEL",
+  "symbol": "HOTL",
+  "description": "Token oficial del proyecto HOTEL en la red Solana.",
+  "image": "https://pbs.twimg.com/profile_images/1865463199585259521/pDz-i4LJ_400x400.jpg",
+  "external_url": "https://hotelpump.com",
+  "attributes": [
+    { "trait_type": "Category", "value": "MEME TOKEN" }
+  ]
+}

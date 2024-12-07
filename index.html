@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="images/favicon.html" type="image/x-icon" />
+  <title>Hotel - The Best Crypto Travel Tool</title>
+  <script defer src="assets/js/app.js"></script>
+  <link href="assets/css/app.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- preloader start -->
+  <div class="preloader">
+    <svg xmlns="http://www.w3.org/2000/svg" height="200" width="200">
+      <g style="order: -1;">
+        <polygon transform="rotate(45 100 100)" stroke-width="1" stroke="#FFBA23" fill="none"
+          points="70,70 148,50 130,130 50,150" id="bounce"></polygon>
+        <polygon transform="rotate(45 100 100)" stroke-width="1" stroke="#FFBA23" fill="none"
+          points="70,70 148,50 130,130 50,150" id="bounce2"></polygon>
+        <polygon transform="rotate(45 100 100)" stroke-width="2" stroke="" fill="#414750"
+          points="70,70 150,50 130,130 50,150"></polygon>
+        <polygon stroke-width="2" stroke="" fill="url(#gradiente)" points="100,70 150,100 100,130 50,100"></polygon>
+        <defs>
+          <linearGradient y2="100%" x2="10%" y1="0%" x1="0%" id="gradiente">
+            <stop style="stop-color: #1e2026;stop-opacity:1" offset="20%"></stop>
+            <stop style="stop-color:#414750;stop-opacity:1" offset="60%"></stop>
+          </linearGradient>
+        </defs>
+        <polygon transform="translate(20, 31)" stroke-width="2" stroke="" fill="#b7870f"
+          points="80,50 80,75 80,99 40,75"></polygon>
+        <polygon transform="translate(20, 31)" stroke-width="2" stroke="" fill="url(#gradiente2)"
+          points="40,-40 80,-40 80,99 40,75"></polygon>
+        <defs>
+          <linearGradient y2="100%" x2="0%" y1="-17%" x1="10%" id="gradiente2">
+            <stop style="stop-color: #d3a51000;stop-opacity:1" offset="20%"></stop>
+            <stop style="stop-color:#d3a51054;stop-opacity:1" offset="100%" class="animatedStop"></stop>
+          </linearGradient>
+        </defs>
+        <polygon transform="rotate(180 100 100) translate(20, 20)" stroke-width="2" stroke="" fill="#FFBA23"
+          points="80,50 80,75 80,99 40,75"></polygon>
+        <polygon transform="rotate(0 100 100) translate(60, 20)" stroke-width="2" stroke="" fill="url(#gradiente3)"
+          points="40,-40 80,-40 80,85 40,110.2"></polygon>
+        <defs>
+          <linearGradient y2="100%" x2="10%" y1="0%" x1="0%" id="gradiente3">
+            <stop style="stop-color: #d3a51000;stop-opacity:1" offset="20%"></stop>
+            <stop style="stop-color:#d3a51054;stop-opacity:1" offset="100%" class="animatedStop"></stop>
+          </linearGradient>
+        </defs>
+        <polygon transform="rotate(45 100 100) translate(80, 95)" stroke-width="2" stroke="" fill="#ffe4a1"
+          points="5,0 5,5 0,5 0,0" class="particles"></polygon>
+        <polygon transform="rotate(45 100 100) translate(80, 55)" stroke-width="2" stroke="" fill="#ccb069"
+          points="6,0 6,6 0,6 0,0" class="particles"></polygon>
+        <polygon transform="rotate(45 100 100) translate(70, 80)" stroke-width="2" stroke="" fill="#fff"
+          points="2,0 2,2 0,2 0,0" class="particles"></polygon>
+        <polygon stroke-width="2" stroke="" fill="#292d34" points="29.5,99.8 100,142 100,172 29.5,130"></polygon>
+        <polygon transform="translate(50, 92)" stroke-width="2" stroke="" fill="#1f2127"
+          points="50,50 120.5,8 120.5,35 50,80"></polygon>
+      </g>
+    </svg>
+  </div>
+  <!-- preloader end -->
+
+  <!-- scroll to top button start -->
+  <div class="scroll-to-top show" id="scrollToTop">
+    <i class="ph ph-arrow-fat-lines-up"></i>
+  </div>
+  <!-- scroll to top button end -->
+
+  <!-- header start -->
+  <header id="header" class="absolute w-full z-[999]">
+    <div class="mx-auto relative">
+      <div id="header-nav"
+        class="w-full xxl:px-[60px] xl:px-10 lg:px-8 md:px-7 sm:px-6 px-4 border-b border-white/10 relative">
+        <div class="flex items-center justify-between gap-x-2 mx-auto py-24p">
+          <nav class="relative w-full flex justify-between items-center gap-24p text-semibold">
+            <div class="flex items-center xxl:gap-x-40p gap-x-20p">
+              <a href="index.html">
+                <img class="md:w-[159px] sm:w-30 w-25 h-auto shrink-0" src="assets/images/icons/logo.png"
+                  alt="brand" />
+              </a>
+              <!-- mega menu start -->
+          
+              <!-- mega menu end -->
+              
+            </div>
+            <div class="flex items-center xxl:gap-24p gap-20p relative">
+              <form class="box-input-1 pl-32p pr-2 lg:flex hidden items-center justify-between gap-3">
+                <input autocomplete="off" class="bg-transparent w-full placeholder:text-white" type="text" name="search"
+                  id="search" placeholder="Search" required />
+                <button class="btn-icon-primary md:size-8 sm:size-7 size-6 flex-c rounded-full text-base shrink-0">
+                  <i class="ph ph-magnifying-glass"></i>
+                </button>
+              </form>
+              <a href="#" class="btn-lg-c btn-icon-secondary shrink-0 lg:flex hidden">
+                <i class="ph ph-globe"></i>
+              </a>
+              <a href="https://t.me/hotelsol" class="btn-lg btn-primary shrink-0">
+            Join Now
+                <i class="ph ph-arrow-right icon-20"></i>
+              </a>
+              <button
+                class="nav-toggole cursor-pointer text-3xl text-white hover:text-primary transition-1 xxl:hidden block">
+                <i class="ph ph-list"></i>
+              </button>
+            </div>
+          </nav>
+        </div>
+      
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- main start -->
+  <main class="min-h-screen">
+
+    <!-- Home one hero banner start -->
+    <section class="relative section-pt overflow-x-hidden grid-lines-1">
+      <div class="container">
+        <div class="grid xl:grid-cols-12 grid-cols-1 lg:gap-x-24p gap-y-60p">
+          <div class="xl:col-start-1 xxl:col-end-7 xl:col-end-8 xxl:py-[160px] section-py max-xl:pb-0 z-[5]" style="
+    padding-top: 20px;
+">
+            <span class="badge badge-circle badge-secondary mb-16p">
+              <i class="badge badge-dot bg-white"></i>
+             $HOTEL is more than just a token.
+            </span>
+            <h1 class="text-72 xl:leading-[96px] leading-[120%] text-white mb-24p text-split-left">
+              The Best Crypto <span class="text-highlight-1">Travel</span> Tool
+            </h1>
+            <p class="text-20 text-white mb-40p">
+              It’s a fun and unique concept inspired by tropical vibes and the crypto community. Born as a meme token on the Solana blockchain, HOTEL is all about bringing people together through humor, creativity, and a touch of paradise.
+            </p>
+            <div class="flex-y gap-24p">
+            
+              <a href="" class="btn-lg btn-primary-outline">
+                Buy Now
+                <i class="ph ph-arrow-right icon-20"></i>
+              </a>
+            </div>
+          </div>
+          <div class="xxl:col-start-8 xxl:col-end-13 max-xl:section-pb z-[5]">
+            <img class="lg:max-w-[unset] animate-bounce-slow-top xxl:pt-9" src="assets/images/photos/homeBanner1.png"
+              alt="banner" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="absolute -left-[12%] bottom-[6%] xxl:size-[380px] xl:size-80 lg:size-72 md:size-60 size-40 light-effect-1">
+      </div>
+      <div
+        class="absolute -right-[12%] -top-[12%] xxl:size-[518px] xl:size-96 lg:size-80 md:size-72 size-60 light-effect-2">
+      </div>
+      <div
+        class="absolute left-0 right-0 bottom-0 home-banner-overlay w-full xxl:h-[425px] xl:h-[400px] lg:h-80 md:h-60 h-40">
+      </div>
+    </section>
+    <!-- Home one hero banner start -->
+
+    <!-- crypto companies section start -->
+    <section>
+      <div class="container-md py-60p bg-BG-200">
+        <h5 class="text-20 text-white text-center mb-40p">
+          TRUSTED BY OVER
+          <span class="inline-block span text-warning">500</span>
+          BEST PARTNER
+        </h5>
+        <div class="swiper infinity-slide-carousel infinity-slide">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company1.1.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company2.2.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company3.3.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company4.4.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company5.5.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company6.6.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company7.7.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company1.1.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company2.2.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company3.3.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company4.4.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company5.5.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company6.6.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company7.7.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company1.1.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company2.2.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company3.3.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company4.4.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company5.5.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company6.6.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company7.7.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company1.1.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company2.2.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company3.3.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company4.4.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company5.5.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company6.6.png" alt="logo" />
+            </div>
+            <div class="swiper-slide">
+              <img class="company-icon-filter" src="assets/images/icons/company7.7.png" alt="logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- crypto companies section end -->
+
+    <!-- Best Crypto Companies one section start -->
+    <section>
+	
+	</section>
+	
+	<br/>
+    <!-- Best Crypto Companies one section end -->
+
+    <!-- Our Journy Section Etart -->
+    <section class="section-py bg-BG-200 overflow-hidden">
+      <div class="container">
+        <div class="grid lg:grid-cols-12 items-center gap-24p">
+          <div class="lg:col-start-1 lg:col-end-6 lg:order-1 order-2">
+            <div class="flex justify-end" data-aos="fade-up">
+              <img class="lg:max-w-[unset] animate-bounce-slow-top" src="assets/images/photos/ourJourneyBanner.png"
+                alt="Journy" / style="
+    height: 500px;
+">
+            </div>
+          </div>
+          <div class="xxl:col-start-7 lg:col-start-6 lg:col-end-13 order-1 lg:order-2">
+            <div data-aos="fade-down">
+              <span class="badge badge-circle badge-secondary mb-16p">
+                <i class="badge badge-dot bg-white"></i>
+                Our Journey, Our Mission, Our Values
+              </span>
+              <h2 class="text-40 text-white mb-24p text-split-left">
+               Born as a meme token on the Solana blockchain, HOTEL is all about bringing people together through humor, creativity, and a touch of paradise.
+                <span class="text-highlight-1">Crypto Currency</span>
+              </h2>
+              <p class="text-base font-normal text-white mb-40p">
+               
+ 1. TODAY: HOTEL is pure entertainment. It’s like booking a symbolic stay at the “Hotel of Memes,” where we share laughs, stickers, and the dream of taking crypto beyond its seriousness.<br/>
+ • No complicated promises: No staking, no impossible roadmaps. Just fun.
+ • Meme culture: The best part of crypto is the community that grows around it. <br/><br/>
+ 2. TOMORROW (Who knows 🤷‍♂️):
+While we don’t make any promises, imagine this:
+ • What if HOTEL becomes so big that your tokens can one day be used for VIP hotel rooms, luxury upgrades, or exclusive services in real hotels? 🌟
+ • “Reserve your future”: Today, it’s a meme token, but… who says it couldn’t turn into something more?
+              </p>
+              <div
+                class="grid sm:grid-cols-3 grid-cols-2 gap-y-24p sm:divide-x divide-dashed divide-warning sm:text-center mb-40p">
+                <div class="sm:text-left">
+                  <div class="flex-y justify-start gap-1 text-56 text-white mb-2">
+                    <h1 data-counter-value="15" class="odometer">0</h1>
+                    <span class=" text-warning">K</span>
+                  </div>
+                  <p class="text-18 text-white font-medium">Coins Reviewed</p>
+                </div>
+                <div>
+                  <div class="flex-y sm:justify-center gap-1 text-56 text-white mb-2">
+                    <h1 data-counter-value="25" class="odometer">0</h1>
+                    <span class=" text-warning">K</span>
+                  </div>
+                  <p class="text-18 text-white font-medium">Happy Users</p>
+                </div>
+                <div>
+                  <div class="flex-y sm:justify-center gap-1 text-56 text-white mb-2">
+                    <h1 data-counter-value="47" class="odometer">0</h1>
+                    <span class=" text-warning">+</span>
+                  </div>
+                  <p class="text-18 text-white font-medium">User Ratings</p>
+                </div>
+              </div>
+              <a href="" class="btn-lg btn-primary">
+                Explore More
+                <i class="ph ph-arrow-right icon-20"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Journy Section End -->
+
+    <!-- Provide Services one section start -->
+    <section class="section-py overflow-hidden">
+      <div class="container">
+        <div class="flex-col-c text-center mb-60p">
+          <div class="max-w-[708px]">
+            <span class="badge badge-circle badge-secondary mb-16p">
+              <i class="badge badge-dot bg-white"></i>
+              Why HOTEL?
+            </span>
+            <h2 class="text-40 text-white mb-24p text-split-top">
+              Comprehensive Solutions for Crypto Enthusiasts
+            </h2>
+            <p class="text-base font-normal text-white">
+              • 🌞 Fresh and Tropical: We bring good vibes, palm trees, and a relaxing concept to the crypto space. <br/>
+ • 😂 Fun and Meme-friendly: HOTEL isn’t just a project—it’s a place where laughs come first.<br/>
+ • 🏨 Exclusivity: Being part of HOTEL is like booking your suite at the most exclusive club on the blockchain!<br/>
+            </p>
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <div class="relative h-full" data-aos="zoom-in-left">
+              <div class="relative rounded-xl bg-primary p-48p h-full 3xl:max-h-[520px]">
+                <h3 class="text-32 text-BG-300 mb-16p text-split-left">Private Presale - “Check-In”</h3>
+                <p class="text-base text-BG-300 mb-32p">
+                 <b> Start Date: December 20th, 2024 </b>
+				<br> Why now? Imagine kicking off the holiday season knowing you’re part of something unique.
+<br/> And for New Year’s Eve? Toast with the HOTEL community for being among the first to “reserve your future.”
+				 
+                </p>
+             
+             
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- Provide Services one section end -->
+
+    <!-- Steps Process one section start -->
+   
+    <!-- Steps Process one section end -->
+
+    <!-- testimonials one section start -->
+    
+    <!-- testimonials one section end -->
+
+  </main>
+  <!-- main end -->
+
+  <!-- footer one start -->
+  <footer>
+    <div
+      class="relative after:content-[''] after:absolute after:bottom-0 after:right-0 lg:after:w-[100%] after:w-full after:h-[80%] after:bg-BG-200 after:z-[-1] z-[1]">
+      <!-- subscribe section start -->
+      
+      <!-- subscribe section end -->
+      
+      <div
+        class="relative after:content-[''] after:absolute after:bottom-0 after:right-0 lg:after:w-[100%] after:w-full after:h-full after:bg-BG-100 after:z-[-1] z-[1] p-24p text-center text-white">
+        <p class="lg:ml-[100%]">Copyright © <span class="currentYear span"></span> <a href="index.html"
+            class="text-primary hover:underline transition-1">$HOTEL</a>. All
+          rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer one end -->
+
+</body>
+
+
+
+</html>
